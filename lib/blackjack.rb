@@ -61,7 +61,6 @@ def runner
   welcome
   first_hand = initial_round
   prompt_user
-  get_user_input
   until first_hand >= 21
     display_card_total(first_hand)
     first_hand = hit?(first_hand)
