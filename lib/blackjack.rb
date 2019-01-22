@@ -46,9 +46,9 @@ def hit?(card_total)
     invalid_command
     prompt_user
   end
+  binding.pry
 end
 return card_total
-binding.pry
 end
 
 
