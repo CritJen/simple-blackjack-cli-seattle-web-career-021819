@@ -63,7 +63,7 @@ def runner
   prompt_user
   get_user_input
   card_total = hit?(first_hand)
-  until card_total>=21
+  until card_total >= 21
     hit?(card_total)
   end
   end_game(card_total)
