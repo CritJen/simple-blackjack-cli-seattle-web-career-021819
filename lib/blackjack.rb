@@ -66,5 +66,5 @@ def runner
     display_card_total(first_hand)
     first_hand = hit?(first_hand)
   end
-  end_game(card_total)
+  end_game(first_hand)
 end
