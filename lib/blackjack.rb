@@ -35,7 +35,7 @@ def initial_round
   # code #initial_round here
 end
 
-def hit?
+def hit?(number)
   # code hit? here
 end
 
