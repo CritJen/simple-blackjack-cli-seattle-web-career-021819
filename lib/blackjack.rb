@@ -35,7 +35,7 @@ def initial_round(sum_of_cards)
   # code #initial_round here
 end
 
-def hit?(number)
+def hit?(card_total)
   prompt_user
   get_user_input
   if get_user_input == 'h'
@@ -46,6 +46,7 @@ def hit?(number)
     prompt_user
   end
 end
+return card_total
 end
 
 
