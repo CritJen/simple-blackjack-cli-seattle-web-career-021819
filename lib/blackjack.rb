@@ -67,4 +67,5 @@ def runner
     first_hand = hit?(first_hand)
   end
   end_game(first_hand)
+  binding.pry
 end
