@@ -63,7 +63,7 @@ def runner
   prompt_user
   get_user_input
   card_total = hit?(first_hand)
-  display_card_total
+  display_card_total(card_total)
   until card_total >= 21
     hit?(card_total)
   end
