@@ -48,6 +48,7 @@ def hit?(card_total)
   end
 end
 return card_total
+binding.pry
 end
 
 
