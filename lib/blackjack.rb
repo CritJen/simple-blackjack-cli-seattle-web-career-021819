@@ -63,7 +63,6 @@ def runner
   prompt_user
   get_user_input
   until first_hand >= 21
-    binding.pry
     display_card_total(first_hand)
     first_hand = hit?(first_hand)
   end
