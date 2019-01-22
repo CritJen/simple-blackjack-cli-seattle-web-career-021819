@@ -65,7 +65,7 @@ def runner
   until first_hand >= 21
     display_card_total(first_hand)
     first_hand = hit?(first_hand)
+    binding.pry
   end
   end_game(first_hand)
-  binding.pry
 end
