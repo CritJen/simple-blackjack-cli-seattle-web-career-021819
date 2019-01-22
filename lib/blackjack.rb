@@ -62,6 +62,9 @@ def runner
   initial_round
   prompt_user
   get_user_input
+  if 
   hit?
+else
   end_game
+end
 end
